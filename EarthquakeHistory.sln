@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{F9B6522E-E11D-4154-8054-CE605DB27CCE}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EarthquakeHistory", "EarthquakeHistory\EarthquakeHistory.fsproj", "{CF2E28E5-AB82-4EA1-80D5-5FA5C5E33C21}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EarthquakeHistory.Test", "EarthquakeHistory.Test\EarthquakeHistory.Test.fsproj", "{B34D2962-4079-4EA0-9212-00F8EF40DB73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{CF2E28E5-AB82-4EA1-80D5-5FA5C5E33C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF2E28E5-AB82-4EA1-80D5-5FA5C5E33C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF2E28E5-AB82-4EA1-80D5-5FA5C5E33C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34D2962-4079-4EA0-9212-00F8EF40DB73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34D2962-4079-4EA0-9212-00F8EF40DB73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34D2962-4079-4EA0-9212-00F8EF40DB73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34D2962-4079-4EA0-9212-00F8EF40DB73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

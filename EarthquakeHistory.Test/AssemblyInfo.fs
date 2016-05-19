@@ -1,4 +1,4 @@
-﻿namespace EarthquakeHistory.AssemblyInfo
+﻿namespace EarthquakeHistory.Test.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // アセンブリに関する一般情報は、以下の属性セットによって
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
-[<assembly: AssemblyTitle("EarthquakeHistory")>]
+[<assembly: AssemblyTitle("EarthquakeHistory.Test")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("EarthquakeHistory")>]
+[<assembly: AssemblyProduct("EarthquakeHistory.Test")>]
 [<assembly: AssemblyCopyright("Copyright ©  2016")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // このプロジェクトが COM に公開される場合、次の GUID がタイプ ライブラリの ID になります
-[<assembly: Guid("cf2e28e5-ab82-4ea1-80d5-5fa5c5e33c21")>]
+[<assembly: Guid("b34d2962-4079-4ea0-9212-00f8ef40db73")>]
 
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されます。:
 // 
@@ -36,8 +36,6 @@ open System.Runtime.InteropServices
 // [<assembly: AssemblyVersion("1.0.*")>]
 [<assembly: AssemblyVersion("1.0.0.0")>]
 [<assembly: AssemblyFileVersion("1.0.0.0")>]
-
-[<assembly: InternalsVisibleTo("EarthquakeHistory.Test")>]
 
 do
     ()
